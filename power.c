@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include "basicMath.c"
-//#include "myMath.h"
-
-//#define EXP 2.718281828459; // thats actualy an infinite number called e, named after euler.
 
 double Exponent(int x){
     double ans = 0.0;
@@ -23,4 +20,3 @@ double Power(double x , int y){        //will multiply x by itself y times
     }
     return ans;
 }
-
